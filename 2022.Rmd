@@ -1,0 +1,59 @@
+---
+fontsize: 12pt
+geometry: margin=1in
+params:
+    candidato: ""
+output:
+    pdf_document:
+        number_sections: true
+        df_print: kable
+---
+
+<!-- capa -->
+\thispagestyle{empty}
+\begin{center}
+\includegraphics[width=2in,height=2in]{img/logo.png} \\
+\vspace{5cm}
+\Large \uppercase{SELEÇÃO ESTÁGIO \\ 2022}
+\end{center}
+
+\vspace{6cm}
+
+Candidato: `r params$candidato`
+
+Assinatura:
+
+<!-- orientações -->
+
+\newpage
+\setcounter{page}{1}
+
+# ORIENTAÇÕES {-}
+
+\vspace{3cm}
+Não é permitido o uso de quaisquer aparelhos eletrônicos durante a prova, exceto calculadora. \\
+Iniciada a prova, o candidato poderá se retirar apenas após a entrega do caderno.\\
+Todas as questões são discursivas e exigem justificativas. Utilize caneta.
+
+<!-- questionário diversidade -->
+
+\newpage
+
+# QUESTIONÁRIO DE DISVERSIDADE {-}
+
+\vspace{3cm}
+O Programa de Valorização da Diversidade da FEBRABAN, iniciado em 2007, foi criado para que o setor bancário seja cada vez mais diverso e inclusivo e busca criar oportunidades de atração, acesso e permanência de grupos subrepresentados, como, por exemplo, as pessoas negras, mulheres, pessoas com deficiência, população LGBTQIA+, dentre outros. Trata-se de uma ação setorial visando uma sociedade mais justa, democrática e saudável.
+
+Você se identifica com algum dos grupos subrepresentados citados? Se sim, com qual(is)?
+
+<!-- prova -->
+
+\newpage
+
+# RACIOCÍNIO LÓGICO-MATEMÁTICO
+
+\vspace{6cm}
+
+## QUESTÃO 1
+\vspace{3cm}
+
